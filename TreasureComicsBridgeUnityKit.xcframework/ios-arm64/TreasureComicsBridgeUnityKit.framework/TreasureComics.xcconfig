@@ -8,5 +8,5 @@
 // Configuration settings file format documentation can be found at:
 // https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
 // Using CalVer
-VersionName = 25.5.1
-VersionCode = 27
+VersionName = 25.5.2
+VersionCode = 28
