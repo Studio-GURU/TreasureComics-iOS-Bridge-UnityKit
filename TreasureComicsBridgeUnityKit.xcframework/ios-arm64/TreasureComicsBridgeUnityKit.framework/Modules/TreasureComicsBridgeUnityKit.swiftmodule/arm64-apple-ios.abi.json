@@ -1,0 +1,446 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TreasureComicsBridgeUnityKit",
+    "printedName": "TreasureComicsBridgeUnityKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsBridgeUnityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsBridgeUnityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsSceneKit",
+        "printedName": "TreasureComicsSceneKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsBridgeUnityKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TreasureComicsBridgeUnityKit",
+        "printedName": "TreasureComicsBridgeUnityKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSNumber, Foundation.NSString) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSNumber, Foundation.NSString)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit(cm)initialize:completionHandler:",
+            "mangledName": "$s28TreasureComicsBridgeUnityKitAAC10initialize_17completionHandlerySo8NSStringC_ySo8NSNumberC_AFtctFZ",
+            "moduleName": "TreasureComicsBridgeUnityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setProfile",
+            "printedName": "setProfile(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSNumber, Foundation.NSString) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSNumber, Foundation.NSString)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit(cm)setProfile:completionHandler:",
+            "mangledName": "$s28TreasureComicsBridgeUnityKitAAC10setProfile_17completionHandlerySo8NSStringC_ySo8NSNumberC_AFtctFZ",
+            "moduleName": "TreasureComicsBridgeUnityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSNumber, Foundation.NSString) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSNumber, Foundation.NSString)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit(cm)launch:completionHandler:",
+            "mangledName": "$s28TreasureComicsBridgeUnityKitAAC6launch_17completionHandlerySo8NSStringC_ySo8NSNumberC_AFtctFZ",
+            "moduleName": "TreasureComicsBridgeUnityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recentContent",
+            "printedName": "recentContent(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSNumber, Foundation.NSString) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSNumber, Foundation.NSString)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit(cm)recentContent:completionHandler:",
+            "mangledName": "$s28TreasureComicsBridgeUnityKitAAC13recentContent_17completionHandlerySo8NSStringC_ySo8NSNumberC_AFtctFZ",
+            "moduleName": "TreasureComicsBridgeUnityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recommendationContent",
+            "printedName": "recommendationContent(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSNumber, Foundation.NSString) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSNumber, Foundation.NSString)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit(cm)recommendationContent:completionHandler:",
+            "mangledName": "$s28TreasureComicsBridgeUnityKitAAC21recommendationContent_17completionHandlerySo8NSStringC_ySo8NSNumberC_AFtctFZ",
+            "moduleName": "TreasureComicsBridgeUnityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TreasureComicsBridgeUnityKit",
+                "printedName": "TreasureComicsBridgeUnityKit.TreasureComicsBridgeUnityKit",
+                "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit(im)init",
+            "mangledName": "$s28TreasureComicsBridgeUnityKitAACABycfc",
+            "moduleName": "TreasureComicsBridgeUnityKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TreasureComicsBridgeUnityKit@objc(cs)TreasureComicsBridgeUnityKit",
+        "mangledName": "$s28TreasureComicsBridgeUnityKitAAC",
+        "moduleName": "TreasureComicsBridgeUnityKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

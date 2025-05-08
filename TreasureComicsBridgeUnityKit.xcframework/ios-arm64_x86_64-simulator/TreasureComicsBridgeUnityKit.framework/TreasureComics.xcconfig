@@ -1,0 +1,12 @@
+//
+//  TreasureComics.xcconfig
+//  
+//
+//  Created by SUNRAIN on 5/7/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+// Using CalVer
+VersionName = 25.5.1
+VersionCode = 27
