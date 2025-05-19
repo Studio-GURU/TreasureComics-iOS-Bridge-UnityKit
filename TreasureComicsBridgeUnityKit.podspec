@@ -3,14 +3,15 @@ Pod::Spec.new do |spec|
     spec.swift_version          = '5.0'
     spec.name                   = 'TreasureComicsBridgeUnityKit'
     spec.module_name            = 'TreasureComicsBridgeUnityKit'
-    spec.version                = '25.5.3'
+    spec.version                = '2025.5.1'
     spec.summary                = 'GuruCompany TreasureComics iOS SDK'
     spec.homepage               = 'https://gurucompany.gitbook.io/treasureisland/ios-sdk/release'
     spec.author                 = { 'GuruCompany TreasureComics[Studio-Guru]' => 'engineer@gurucompany.co.kr' }
-    spec.platform               = :ios, '15.6'
-    spec.ios.deployment_target  = '15.6'
-    spec.source                 = { :git => 'https://github.com/Studio-GURU/TreasureComics-iOS-Bridge-UnityKit.git', :tag => '25.5.3' }
+    spec.platform               = :ios, '13.0'
+    spec.ios.deployment_target  = '13.0'
+    spec.source                 = { :git => 'https://github.com/Studio-GURU/TreasureComics-iOS-Bridge-UnityKit.git', :tag => '2025.5.1' }
     spec.vendored_frameworks    = 'TreasureComicsBridgeUnityKit.xcframework'
+    spec.preserve_paths         = 'TreasureComicsBridgeUnityKit.xcframework'    
     spec.description            = 'Library for providing a webtoon system for iOS application in GuruCompany'
     spec.license                = { :type => 'MIT', :text => <<-LICENSE
                                     Copyright (c) 2024 GuruCompany<engineer@gurucompany.co.kr>
